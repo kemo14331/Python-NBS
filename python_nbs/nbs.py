@@ -2,9 +2,7 @@
 '''NBSファイルを読み込むライブラリ
 '''
 import io
-from ._util import binary as binary
-from . import NoteBlock
-from . import Layer
+from . import binary, NoteBlock, Instrument, Layer
 
 
 class NBS:
