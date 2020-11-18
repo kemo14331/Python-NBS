@@ -1,11 +1,15 @@
 from setuptools import setup
 
+with open("README.md", "r", encoding='utf-8') as file:
+  long_description = file.read()
+
 setup(
     name="Python-NBS",
     version="1.0.0",
     author="Kemo14331",
     url="https://github.com/kemo14331/Python-NBS",
     description="A python library for loading NBS files",
+    long_description = long_description,
     license="MIT",
     packages=["python_nbs"],
     install_requires=[],
