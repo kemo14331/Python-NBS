@@ -2,9 +2,9 @@
 '''NBSファイルを読み込むライブラリ
 '''
 import io
-import python_nbs._util.binary as binary
-import python_nbs.NoteBlock as NoteBlock
-import python_nbs.Layer as Layer
+from ._util import binary as binary
+from . import NoteBlock
+from . import Layer
 
 
 class NBS:
